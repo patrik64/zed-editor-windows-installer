@@ -1,5 +1,5 @@
 # zed-editor-windows-installer
-windows installer script for the zed editor
+windows installer script for the [zed editor](https://zed.dev/)
 
 to create the installer (msi file):
 
@@ -53,7 +53,7 @@ and the resulting Apps item:
 <br/>
 
 
-Zed Editor running on Windows:
+zed editor running on windows:
 
 ![image](https://github.com/user-attachments/assets/f718059b-2bfd-4870-8f8f-0aa32f6e923c)
 
