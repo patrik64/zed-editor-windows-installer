@@ -5,7 +5,7 @@ to create the installer (msi file):
 
 - create the [windows release build](https://zed.dev/docs/development/windows)
 - copy the above wix folder to crates/zed folder of the zed editor project
-- from the root folder execute:
+- from the zed editor root folder execute:
 
 ``cargo wix --package zed``
 
