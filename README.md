@@ -4,7 +4,7 @@ windows installer script for the zed editor
 to create the installer (msi file):
 
 - install [cargo-wix](https://github.com/volks73/cargo-wix) subcommand
-- create the [windows release build](https://zed.dev/docs/development/windows)
+- create the [zed editor windows release build](https://zed.dev/docs/development/windows)
 - copy the above wix folder to crates/zed folder of the zed editor project
 - from the zed editor root folder execute:
 
@@ -22,9 +22,7 @@ the resulting installer file will be located in the target/wix folder
 
 ![image](https://github.com/user-attachments/assets/640b1ef7-9863-463f-936c-bcb3477ae9ee)
 
-
 ![image](https://github.com/user-attachments/assets/5219b005-b9c2-4454-959a-30103cf710ab)
-
 
 ![image](https://github.com/user-attachments/assets/f718059b-2bfd-4870-8f8f-0aa32f6e923c)
 
