@@ -3,14 +3,18 @@ windows installer script for the zed editor
 
 to create the installer (msi file):
 
-- install [cargo-wix](https://github.com/volks73/cargo-wix) subcommand
+- install [cargo-wix](https://github.com/volks73/cargo-wix) subcommand : ``cargo install cargo-wix``
 - create the [zed editor windows release build](https://zed.dev/docs/development/windows)
-- copy the above wix folder to crates/zed folder of the zed editor project
+- copy the above ``wix`` folder to ``crates/zed`` folder of the zed editor project
 - from the zed editor root folder execute:
 
 ``cargo wix --package zed``
 
-the resulting installer file will be located in the target/wix folder 
+the resulting installer (msi) file will be located in the ``target/wix`` folder:
+
+![image](https://github.com/user-attachments/assets/640b1ef7-9863-463f-936c-bcb3477ae9ee)
+
+the following are screenshots of the activated installer:
 
 ![image](https://github.com/user-attachments/assets/3317ae9c-2811-492d-8533-981fee8a40f7)
 
@@ -20,9 +24,11 @@ the resulting installer file will be located in the target/wix folder
 
 ![image](https://github.com/user-attachments/assets/d6722d88-29dd-4784-83af-c8bc1c797ebb)
 
-![image](https://github.com/user-attachments/assets/640b1ef7-9863-463f-936c-bcb3477ae9ee)
+and the resulting control panel Apps item:
 
 ![image](https://github.com/user-attachments/assets/5219b005-b9c2-4454-959a-30103cf710ab)
+
+Zed Editor running on Windows:
 
 ![image](https://github.com/user-attachments/assets/f718059b-2bfd-4870-8f8f-0aa32f6e923c)
 
